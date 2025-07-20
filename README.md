@@ -1,18 +1,26 @@
-# 📝 Node.js CLI TODO App
+# 🖥️ Node.js HTTP Server & CLI TODO App
 
-A simple command-line TODO application built with Node.js that allows users to **add** and **read** tasks using a local `todos.json` file for storage.
+A simple **Node.js HTTP server** that serves HTML files dynamically and a **CLI-based TODO application** to manage tasks using a local `todos.json` file.
 
 ---
 
 ## 📦 Features
 
-- Add new TODO items
-- Read and list existing TODO items
-- Data stored in `todos.json` as JSON
+### **HTTP Server:**
+- **Dynamic Routing**: Serves different `.html` files based on the URL (e.g., `/about`, `/contact`).
+- **Error Handling**: Returns custom error pages for missing files (`404 Not Found`) and server errors (`500 Internal Error`).
+- **Static Content Serving**: Handles requests to serve `.html` files dynamically from the local directory.
+
+### **CLI TODO App:**
+- **Add new TODO items**: Easily add tasks to a local `todos.json` file.
+- **Read and List TODO items**: View all tasks saved in the `todos.json` file.
+- **Simple Data Storage**: Uses `todos.json` to store the tasks in JSON format.
 
 ---
 
 ## 🚀 Getting Started
+
+Follow these steps to get the project up and running locally on your machine.
 
 ### 1. Clone the Repository
 
